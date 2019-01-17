@@ -1,64 +1,36 @@
-[31.256198883] 2019-01-17 17:38:48,675 - INFO - launcher: Starting sanity checks
-[46.878099442] 2019-01-17 17:38:48,690 - INFO - launcher: Checking for Python 3.5+
-[46.878099442] 2019-01-17 17:38:48,690 - INFO - launcher: Checking console encoding
-[46.878099442] 2019-01-17 17:38:48,690 - INFO - launcher: Setting console encoding to UTF-8
-[46.878099442] 2019-01-17 17:38:48,690 - INFO - launcher: Ensuring we're in the right environment
-[46.878099442] 2019-01-17 17:38:48,690 - INFO - launcher: Adding local bins/ folder to path
-[609.661102295] 2019-01-17 17:38:49,253 - INFO - launcher: Required checks passed.
-[625.303745270] 2019-01-17 17:38:49,269 - INFO - launcher: Optional checks passed.
-[625.303745270] 2019-01-17 17:38:49,269 - INFO - launcher: Moving old musicbot log
+[46.874284744] 2019-01-17 18:04:57,669 - INFO - launcher: Starting sanity checks
+[46.874284744] 2019-01-17 18:04:57,669 - INFO - launcher: Checking for Python 3.5+
+[46.874284744] 2019-01-17 18:04:57,669 - INFO - launcher: Checking console encoding
+[46.874284744] 2019-01-17 18:04:57,669 - INFO - launcher: Setting console encoding to UTF-8
+[46.874284744] 2019-01-17 18:04:57,669 - INFO - launcher: Ensuring we're in the right environment
+[46.874284744] 2019-01-17 18:04:57,669 - INFO - launcher: Adding local bins/ folder to path
+[631.719827652] 2019-01-17 18:04:58,253 - INFO - launcher: Required checks passed.
+[678.627729416] 2019-01-17 18:04:58,300 - INFO - launcher: Optional checks passed.
+[678.627729416] 2019-01-17 18:04:58,300 - INFO - launcher: Moving old musicbot log
 
 ######################### PRE-RUN SANITY CHECKS PASSED #########################
 
-[1.3596737384796143] 2019-01-17 17:38:50,003 - WARNING - musicbot.config | In config.py::MainThread(12184), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
-[1.3596737384796143] 2019-01-17 17:38:50,003 - INFO - musicbot.config | In config.py::MainThread(12184), line 124 in run_checks: Using i18n: config/i18n/en.json
-[1.3596737384796143] 2019-01-17 17:38:50,003 - DEBUG - musicbot.json | In json.py::MainThread(12184), line 8 in __init__: Init JSON obj with config/i18n/en.json
-[1.8450815677642822] 2019-01-17 17:38:50,489 - DEBUG - musicbot.bot | In bot.py::MainThread(12184), line 223 in _setup_logging: Set logging level to INFO
-[1.8450815677642822] 2019-01-17 17:38:50,489 - INFO - musicbot.bot | In bot.py::MainThread(12184), line 83 in __init__: Starting MusicBot 1.9.8_1
-[1.8450815677642822] 2019-01-17 17:38:50,489 - INFO - musicbot.bot | In bot.py::MainThread(12184), line 89 in __init__: Loaded autoplaylist with 3055 entries
-[5.2098650932312012] 2019-01-17 17:38:53,853 - DEBUG - musicbot.bot | In bot.py::MainThread(12184), line 913 in on_ready: Connection established, ready to go.
-[5.2098650932312012] 2019-01-17 17:38:53,853 - DEBUG - musicbot.bot | In bot.py::MainThread(12184), line 334 in _cache_app_info: Caching app info
-[5.4659783840179443] 2019-01-17 17:38:54,109 - DEBUG - musicbot.bot | In bot.py::MainThread(12184), line 735 in _scheck_ensure_env: Ensuring data folders exist
-[5.4816017150878906] 2019-01-17 17:38:54,125 - DEBUG - musicbot.bot | In bot.py::MainThread(12184), line 751 in _scheck_server_permissions: Checking server permissions
-[5.4816017150878906] 2019-01-17 17:38:54,125 - DEBUG - musicbot.bot | In bot.py::MainThread(12184), line 755 in _scheck_autoplaylist: Auditing autoplaylist
-[5.4816017150878906] 2019-01-17 17:38:54,125 - DEBUG - musicbot.bot | In bot.py::MainThread(12184), line 759 in _scheck_configs: Validating config
-[5.4816017150878906] 2019-01-17 17:38:54,125 - DEBUG - musicbot.config | In config.py::MainThread(12184), line 213 in async_validate: Validating options...
-[5.4816017150878906] 2019-01-17 17:38:54,125 - DEBUG - musicbot.bot | In bot.py::MainThread(12184), line 762 in _scheck_configs: Validating permissions config
-[5.4816017150878906] 2019-01-17 17:38:54,125 - DEBUG - musicbot.permissions | In permissions.py::MainThread(12184), line 65 in async_validate: Validating permissions...
-[5.4816017150878906] 2019-01-17 17:38:54,125 - INFO - musicbot.bot | In bot.py::MainThread(12184), line 930 in on_ready: Connected: 533266784229523456/Test Music Bot#3711
-[5.4816017150878906] 2019-01-17 17:38:54,125 - INFO - musicbot.bot | In bot.py::MainThread(12184), line 938 in on_ready: Owner:     254851632481697792/Thunder#8077
+[1.4024991989135742] 2019-01-17 18:04:59,024 - WARNING - musicbot.config | In config.py::MainThread(15380), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.4024991989135742] 2019-01-17 18:04:59,024 - INFO - musicbot.config | In config.py::MainThread(15380), line 124 in run_checks: Using i18n: config/i18n/en.json
+[1.4024991989135742] 2019-01-17 18:04:59,024 - DEBUG - musicbot.json | In json.py::MainThread(15380), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.8556215763092041] 2019-01-17 18:04:59,477 - DEBUG - musicbot.bot | In bot.py::MainThread(15380), line 223 in _setup_logging: Set logging level to INFO
+[1.8556215763092041] 2019-01-17 18:04:59,477 - INFO - musicbot.bot | In bot.py::MainThread(15380), line 83 in __init__: Starting MusicBot 1.9.8_1
+[1.8556215763092041] 2019-01-17 18:04:59,477 - INFO - musicbot.bot | In bot.py::MainThread(15380), line 89 in __init__: Loaded autoplaylist with 3055 entries
+[5.2816245555877686] 2019-01-17 18:05:02,903 - DEBUG - musicbot.bot | In bot.py::MainThread(15380), line 913 in on_ready: Connection established, ready to go.
+[5.2816245555877686] 2019-01-17 18:05:02,903 - DEBUG - musicbot.bot | In bot.py::MainThread(15380), line 334 in _cache_app_info: Caching app info
+[5.5672805309295654] 2019-01-17 18:05:03,189 - DEBUG - musicbot.bot | In bot.py::MainThread(15380), line 735 in _scheck_ensure_env: Ensuring data folders exist
+[5.5672805309295654] 2019-01-17 18:05:03,189 - DEBUG - musicbot.bot | In bot.py::MainThread(15380), line 751 in _scheck_server_permissions: Checking server permissions
+[5.5672805309295654] 2019-01-17 18:05:03,189 - DEBUG - musicbot.bot | In bot.py::MainThread(15380), line 755 in _scheck_autoplaylist: Auditing autoplaylist
+[5.5672805309295654] 2019-01-17 18:05:03,189 - DEBUG - musicbot.bot | In bot.py::MainThread(15380), line 759 in _scheck_configs: Validating config
+[5.5672805309295654] 2019-01-17 18:05:03,189 - DEBUG - musicbot.config | In config.py::MainThread(15380), line 213 in async_validate: Validating options...
+[5.5672805309295654] 2019-01-17 18:05:03,189 - DEBUG - musicbot.bot | In bot.py::MainThread(15380), line 762 in _scheck_configs: Validating permissions config
+[5.5672805309295654] 2019-01-17 18:05:03,189 - DEBUG - musicbot.permissions | In permissions.py::MainThread(15380), line 65 in async_validate: Validating permissions...
+[5.5672805309295654] 2019-01-17 18:05:03,189 - INFO - musicbot.bot | In bot.py::MainThread(15380), line 930 in on_ready: Connected: 533266784229523456/Test Music Bot#3711
+[5.5672805309295654] 2019-01-17 18:05:03,189 - INFO - musicbot.bot | In bot.py::MainThread(15380), line 938 in on_ready: Owner:     254851632481697792/Thunder#8077
 
-[5.4816017150878906] 2019-01-17 17:38:54,125 - INFO - musicbot.bot | In bot.py::MainThread(12184), line 941 in on_ready: Guild List:
-[5.4816017150878906] 2019-01-17 17:38:54,125 - INFO - musicbot.bot | In bot.py::MainThread(12184), line 944 in on_ready:  - ThunderServer
-[5.4816017150878906] 2019-01-17 17:38:54,125 - INFO - musicbot.bot | In bot.py::MainThread(12184), line 990 in on_ready: Not bound to any text channels
-[5.4816017150878906] 2019-01-17 17:38:54,125 - INFO - musicbot.bot | In bot.py::MainThread(12184), line 1003 in on_ready: Autojoining voice chanels:
-[5.4816017150878906] 2019-01-17 17:38:54,125 - INFO - musicbot.bot | In bot.py::MainThread(12184), line 1004 in <listcomp>:  - ThunderServer/Music Chill
-[5.4816017150878906] 2019-01-17 17:38:54,125 - INFO - musicbot.bot | In bot.py::MainThread(12184), line 276 in _join_startup_channels: Attempting to join ThunderServer/Music Chill
-[6.2203416824340820] 2019-01-17 17:38:54,864 - INFO - musicbot.bot | In bot.py::MainThread(12184), line 292 in _join_startup_channels: Joined ThunderServer/Music Chill
-[6.2359132766723633] 2019-01-17 17:38:54,879 - DEBUG - musicbot.bot | In bot.py::MainThread(12184), line 505 in on_player_stop: Running on_player_stop
-[11.9645082950592041] 2019-01-17 17:39:00,608 - ERROR - musicbot.bot | In bot.py::MainThread(12184), line 901 in on_error: Exception in on_voice_state_update
-Traceback (most recent call last):
-  File "C:\Users\Lucas\Desktop\ThunderMusic\musicbot\bot.py", line 864, in run
-    self.loop.run_until_complete(self.start(*self.config.auth))
-  File "C:\Users\Lucas\AppData\Local\Programs\Python\Python35\lib\asyncio\base_events.py", line 454, in run_until_complete
-    self.run_forever()
-  File "C:\Users\Lucas\AppData\Local\Programs\Python\Python35\lib\asyncio\base_events.py", line 421, in run_forever
-    self._run_once()
-  File "C:\Users\Lucas\AppData\Local\Programs\Python\Python35\lib\asyncio\base_events.py", line 1389, in _run_once
-    event_list = self._selector.select(timeout)
-  File "C:\Users\Lucas\AppData\Local\Programs\Python\Python35\lib\asyncio\windows_events.py", line 414, in select
-    self._poll(timeout)
-  File "C:\Users\Lucas\AppData\Local\Programs\Python\Python35\lib\asyncio\windows_events.py", line 668, in _poll
-    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
-KeyboardInterrupt
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\Lucas\AppData\Local\Programs\Python\Python35\lib\site-packages\discord\client.py", line 227, in _run_event
-    await coro(*args, **kwargs)
-  File "C:\Users\Lucas\Desktop\ThunderMusic\musicbot\bot.py", line 2796, in on_voice_state_update
-    player = await self.get_player(channel)
-  File "C:\Users\Lucas\Desktop\ThunderMusic\musicbot\bot.py", line 425, in get_player
-    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
-musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use <<summon to summon it to your voice channel.
+[5.5672805309295654] 2019-01-17 18:05:03,189 - INFO - musicbot.bot | In bot.py::MainThread(15380), line 941 in on_ready: Guild List:
+[5.5672805309295654] 2019-01-17 18:05:03,189 - INFO - musicbot.bot | In bot.py::MainThread(15380), line 944 in on_ready:  - ThunderServer
+[5.5672805309295654] 2019-01-17 18:05:03,189 - INFO - musicbot.bot | In bot.py::MainThread(15380), line 990 in on_ready: Not bound to any text channels
+[5.5672805309295654] 2019-01-17 18:05:03,189 - INFO - musicbot.bot | In bot.py::MainThread(15380), line 1003 in on_ready: Autojoining voice chanels:
+[5.5672805309295654] 2019-01-17 18:05:03,189 - INFO - musicbot.bot | In bot.py::MainThread(15380), line 1004 in <listcomp>:  - ThunderServer/Music Chill
+[5.5672805309295654] 2019-01-17 18:05:03,189 - INFO - musicbot.bot | In bot.py::MainThread(15380), line 276 in _join_startup_channels: Attempting to join ThunderServer/Music Chill
